@@ -19,37 +19,51 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <!--<link rel="stylesheet" href="css/main.css"> -->
 
-    </head>
-    <body>
-     <header class="container-fluid hero" >
-     	<div clss="row">
-     	<nav id="navBar">
-     		<ul>
-     			<li>Home</li>
-     			<li>Alumni</li>
-     			<li>Events</li>
-     			<li>FS-Github</li>
-     			<li>Contact Us</li>
-     		</ul>
-		</nav>
-			<div class="imgBackground"> 
-				<img src="backgrond">
-			</div>
+    
+      <div id="header">
+       <div class="container">
+       		<header class="row">
+       			<div class="col-12 col-md-4 mt-2">
+       	
+       			</div>
+       			<div class="col-md-8">
+	       			<nav class="text-right mt-1">
+	       				<li><a href="#">Home</a></li>
+	       				<li><a href="#">Alumni</a></li>
+	       				<li><a href="#">Events</a></li>
+	       				<li><a href="#">FS-GitHub</a></li>
+	       				<li><a href="#">Contact Us</a></li>
+	       			</nav>
+	       		</div>
+       		</header>
+         </div>
+        </div>
 
-			<div class="mainText">
-				<img src="logo">
-				<h1>The New CAREER CHANGING Opportunity</h1>
-			</div>
-			</div>
-	 </header>
 
-	 <div class="container">
+             <!--hero area-->
+
+<div id="hero" class="container-fluid">
+   <div class="container mb-4">
+		<div class="row">
+        		<div class="col-12">
+            		<img src="full stack logo">
+            		<h2 class="text-center">The New CAREER CHANGING Opportunity </h2>
+        		</div>
+		</div>
+    </div>
+</div>
+
+
+	 <div class="container col-md-12">
 	 	<div class="row">
-	 	<h2>WHAT IS FULL STACK?</h2>
-	 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</P>
-	 	
-	 	<h2>WHO IS FULL STACK FOR?</h2>
-	 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sed repellat odio expedita perferendis officia veniam cum pariatur sunt, explicabo ad illo voluptatibus, rem magni veritatis quos eos officiis accusamus.</P>
+	 		<div class="col-6">
+	 			<h2>WHAT IS FULL STACK?</h2>
+	 				<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</P>
+	 	    </div>
+	 	    <div class="col-6">
+	 			<h2>WHO IS FULL STACK FOR?</h2>
+	 				<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</P>
+	 	    </div>
 	 	</div>
 	 </div>
 
