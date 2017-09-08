@@ -46,7 +46,7 @@
    <div class="container mb-4">
 		<div class="row">
         		<div class="col-12">
-            		<img src="full stack logo">
+            		<img src="img/bhmLogo.png">
             		<h2 class="text-center">The New CAREER CHANGING Opportunity </h2>
         		</div>
 		</div>
