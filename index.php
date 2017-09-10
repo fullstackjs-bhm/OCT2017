@@ -48,15 +48,10 @@
          </div>
    <div class="container mb-4">
 		<div class="row">
-<<<<<<< HEAD
-        		<div class="col-12 text-center">
-            		<img src="img/bhmLogo.png">
-            		<h2 class="text-center">The New <span>CAREER CHANGING</span> Opportunity </h2>
-=======
+<div class="col-12 text-center">
         		<div class="col-12">
             		<img src="img/assets/bhmLogo.png">
             		<h2 class="text-center">The New CAREER CHANGING Opportunity </h2>
->>>>>>> da88925cf96142be8bb0e2c95c1c95183b062052
         		</div>
 		</div>
     </div>
