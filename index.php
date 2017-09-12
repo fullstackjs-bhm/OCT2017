@@ -24,21 +24,30 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>   
-    <div id="hidden-header">
-         
+
+  <!--   Scrolling Navbar   -->
+    <div class="container-fluid">
+      <nav class="row" id="scrollNav">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-7 text-right mt-1">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Alumni</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">FS-GitHub</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+      </nav>
     </div>
 
-
-  <!--     hero area     -->
-
+  <!--     Hero Area     -->
     <div id="hero" class="container-fluid">
       <div class="container">
         <header class="row">
           <div class="col-12 col-md-4 mt-2">
-            
           </div>
-          <div class="offset-4 col-md-8">
-            <nav class="text-right mt-1">
+          <div class="col-md-8">
+            <nav class="text-right mt-1" id="navBar">
               <li><a href="#">Home</a></li>
               <li><a href="#">Alumni</a></li>
               <li><a href="#">Events</a></li>
