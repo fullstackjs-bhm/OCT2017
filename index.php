@@ -41,32 +41,29 @@
     </div>
 
   <!--     Hero Area     -->
-    <div id="hero" class="container-fluid">
-      <div class="container">
-        <header class="row">
-          <div class="col-12 col-md-4 mt-2">
-          </div>
-          <div class="col-md-8">
-            <nav class="text-right mt-1" id="navBar">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Alumni</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">FS-GitHub</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </nav>
-          </div>
-        </header>
+ <div id="hero" class="container-fluid">
+      
+      <header>
+        <nav class="col-md-12 text-right" id="navBar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Alumni</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">FS-GitHub</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </nav>
+      </header>
+
+      <div class="overlay"></div>
+
+      <div class="col-12 text-center logoHero">
+        <img src="img/assets/bhmLogo.png">
+        <h2>The New <span>CAREER CHANGING</span> Opportunity </h2>
       </div>
-      <div class="container mb-4">
-    		<div class="row">
-          <div class="col-12 text-center">
-          	<div class="col-12">
-           		<img src="img/assets/bhmLogo.png">
-              <h2 class="text-center">The New CAREER CHANGING Opportunity </h2>
-            </div>
-    		  </div>
-        </div>
-      </div>
+
+    </div>
+
+
+
     	<div class="container col-md-12">
     	 	<div class="row">
     	 		<div class="col-6">
