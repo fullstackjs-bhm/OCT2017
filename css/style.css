@@ -1,3 +1,4 @@
+
 /***  Scrolling Navbar  ***/
 
 #scrollNav {
@@ -39,8 +40,28 @@
 }
 
 /***  Hero Area With Header Navbar  ***/
-#header{
+
+#hero{
+	background-image: url("../img/shelby.png");
+	background-size: cover;
+	padding: 0;
+}
+
+header{
 	border-top: 3px solid #96bee3;
+}
+
+#hero header{
+	position: relative;
+	z-index: 10;
+}
+.overlay{
+	background: rgba(0,0,0,.5);
+	z-index: 5;
+	width: 100%;
+	height: 550px;
+	position: relative;
+	margin-top: -24px;
 }
 
 #hero li {
@@ -48,13 +69,9 @@
 	margin-right: 20px;
 }
 
-#hero{
-	background-image: url("../img/shelby.png");
-	background-size: cover;
-}
-
-#hero img{
-	margin: 100px 0px 20px 0px;
+#hero a{
+	color: #ffffff;
+	text-decoration: none;
 }
 
 #hero h2{
@@ -66,3 +83,8 @@
 #hero span{
 	color: #96dbee;
 }
+
+.logoHero{
+	position: absolute;
+	z-index: 12;
+	margin-top: -30%;
