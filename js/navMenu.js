@@ -9,7 +9,7 @@ $(window).scroll(function(){
     navSlide = false;
   }
   else if($(window).scrollTop() < (topofNav + height) && !navSlide){
-    $('#scrollNav').stop().animate({top: -50}, 500);
+    $('#scrollNav').stop().animate({top: -60}, 500);
     navSlide = true;
     // $('.collapsedNav').hide(); //Rehides the collapsed nav menu once you scroll back to the top
   }

@@ -20,8 +20,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    
+
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Teko:600" rel="stylesheet">    
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+  
   </head>
 
   <body>   
@@ -32,7 +37,7 @@
         <div class="col-md-4 logo">
           <img src="img/bhmLogo.png" alt="Full-Stack Logo">
         </div>
-        <div class="col-md-7 text-right mt-1 menu">
+        <div class="col-md-8 text-right mt-1 menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">Alumni</a></li>
           <li><a href="#">Events</a></li>
