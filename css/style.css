@@ -1,17 +1,39 @@
-
-/***  Scrolling Navbar  ***/
-#scrollNav {
-	position: fixed;
-	display: none;
-	width: 100vw;
-	height: 35px;
-	background-color: #AB61C4;	
-	overflow: auto;
+/* ** Fonts **/
+h1, h2, h3{
+	font-family: 'Teko', sans-serif;
 }
 
-#scrollNav div{
+nav{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+/***  Scrolling Navbar  ***/
+
+#scrollNav {
+	position: fixed;
+    top: -60px;
+    left: 0;
+    width: 100vw;
+    height: 55px;
+    background-color: #000;
+    overflow: auto;
+    z-index: 9999;
+    padding-top: 10px;
+}
+
+#scrollNav div.logo img{
+	width: 170px;	
+	margin-left: 50px; 
+}
+
+#scrollNav div.menu{
 	padding: 0;
-	padding-right: 23px;
+	padding-right: 7px; 
 }
 
 #scrollNav li {
@@ -23,6 +45,17 @@
 	color: white;
 }
 
+#scrollNav a:hover{
+	color: #AB61C4;
+	font-weight: bold;
+}
+
+#scrollNav a:active{
+	color: #4A235A;
+	font-weight: bold;
+}
+
+
 /***  Hero Area With Header Navbar  ***/
 
 #hero{
@@ -32,20 +65,25 @@
 }
 
 header{
-	border-top: 3px solid #96bee3;
+	border-top: 5px solid #96bee3;
 }
 
 #hero header{
 	position: relative;
 	z-index: 10;
 }
+
+#navBar{
+	padding-top: 10px;
+}
+
 .overlay{
-	background: rgba(0,0,0,.5);
+	background: rgba(0,0,0,.7);
 	z-index: 5;
 	width: 100%;
 	height: 550px;
 	position: relative;
-	margin-top: -24px;
+	margin-top: -34px;
 }
 
 #hero li {
@@ -55,7 +93,16 @@ header{
 
 #hero a{
 	color: #ffffff;
-	text-decoration: none;
+}
+
+#hero a:hover{
+	color: #AB61C4;
+	font-weight: bold;
+}
+
+#hero a:active{
+	color: #4A235A;
+	font-weight: bold;
 }
 
 #hero h2{

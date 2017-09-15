@@ -1,69 +1,9 @@
-<?php
- //All PHP Code will go here.
+<?php 
+  require('includes/header.php');
+
+  require('includes/footer.php')
 ?>
-
-
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Full Stack BHM</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>   
-
-  <!--   Scrolling Navbar   -->
-    <div class="container-fluid">
-      <nav class="row" id="scrollNav">
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-7 text-right mt-1">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Alumni</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">FS-GitHub</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </div>
-      </nav>
-    </div>
-
-  <!--     Hero Area     -->
- <div id="hero" class="container-fluid">
-      
-      <header>
-        <nav class="col-md-12 text-right" id="navBar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Alumni</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">FS-GitHub</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </nav>
-      </header>
-
-      <div class="overlay"></div>
-
-      <div class="col-12 text-center logoHero">
-        <img src="img/assets/bhmLogo.png">
-        <h2>The New <span>CAREER CHANGING</span> Opportunity </h2>
-      </div>
-
-    </div>
-
-
-
+    <!-- Container content -->
     	<div class="container col-md-12 ">
     	 	<div class="row">
     	 		<div class="col-6">
@@ -77,6 +17,8 @@
     	 	</div>
     	</div> 
 
+      <!-- Banner -->
+
       <div class="container-fluid">
         <div class="row">
           <h1 class="text-center">Other Frameworks, Libraries &amp; Tools</h1>
@@ -87,16 +29,4 @@
         
       </div>   	
 
-<!--  End of page scripts  -->
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 
-   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-      ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-
-  </body>
-</html>
