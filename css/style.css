@@ -72,3 +72,8 @@ header{
 	position: absolute;
 	z-index: 12;
 	margin-top: -30%;
+}
+
+h2{
+	text-align: center;
+}

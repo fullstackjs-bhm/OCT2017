@@ -64,18 +64,28 @@
 
 
 
-    	<div class="container col-md-12">
+    	<div class="container col-md-12 ">
     	 	<div class="row">
     	 		<div class="col-6">
-    	 			<h2>WHAT IS FULL STACK?</h2>
+    	 			<h2 class="text-center mt-3">WHAT IS FULL STACK?</h2>
     	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</p>
     	 	  </div>
     	 	  <div class="col-6">
-    	 			<h2>WHO IS FULL STACK FOR?</h2>
+    	 			<h2 class="text-center mt-3">WHO IS FULL STACK FOR?</h2>
     	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</p>
     	 	  </div>
     	 	</div>
-    	</div>    	
+    	</div> 
+
+      <div class="container-fluid">
+        <div class="row">
+          <h1 class="text-center">Other Frameworks, Libraries &amp; Tools</h1>
+          <img src="img/assets/bootstap.jpg" alt="">
+         
+          
+        </div>
+        
+      </div>   	
 
 <!--  End of page scripts  -->
     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
