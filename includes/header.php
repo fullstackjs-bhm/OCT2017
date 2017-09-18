@@ -50,7 +50,7 @@
 <!--     Hero Area     -->
     <div id="hero" class="container-fluid">
       <header>
-        <nav class="col-md-12 text-right" id="navBar">
+        <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
           <li><a href="#">Home</a></li>
           <li><a href="#">Alumni</a></li>
           <li><a href="#">Events</a></li>
@@ -59,11 +59,12 @@
         </nav>
       </header>
 
-      <div class="overlay"></div>
-
       <div class="col-12 text-center logoHero">
-        <img src="img/assets/bhmLogo.png">
+        <img class="img-fluid" src="img/assets/bhmLogo.png">
         <h2>The New <span>CAREER CHANGING</span> Opportunity </h2>
       </div>
+
+      <div class="overlay"></div>
+
     </div>
   
