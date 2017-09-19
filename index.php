@@ -5,11 +5,11 @@
     	<div class="container">
     	 	<div class="row">
     	 		<div class="col-12 col-md-6">
-    	 			<h2 class="col-8 col-push-2 text-center mt-3 underline">WHAT IS FULL STACK?</h2>
+    	 			<h2 class="col-12 text-center mt-3 underline">WHAT IS FULL STACK?</h2>
     	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</p>
     	 	  </div>
     	 	  <div class="col-12 col-md-6">
-    	 			<h2 class="col-8 col-push-2 text-center mt-3 underline">WHO IS FULL STACK FOR?</h2>
+    	 			<h2 class="col-12 text-center mt-3 underline">WHO IS FULL STACK FOR?</h2>
     	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</p>
     	 	  </div>
     	 	</div>

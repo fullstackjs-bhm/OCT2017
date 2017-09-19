@@ -176,8 +176,16 @@ h2{
 }
 
 h2.underline{
-	border-bottom: 3px solid #98fb98;
-	border-width: 100%;
+	position: relative;
+}
+
+h2.underline:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 0px;
+    border-bottom: 3px solid #98fb98;
 }
 
 .fltBanner{
