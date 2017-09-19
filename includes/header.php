@@ -26,6 +26,9 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
   
   </head>
 
@@ -34,16 +37,28 @@
   <!--   Scrolling Navbar   -->
     <div class="container-fluid">
       <nav class="row" id="scrollNav">
-        <div class="col-md-4 logo">
+        <div class="d-inline col-6 col-md-4 logo">
           <img src="img/bhmLogo.png" alt="Full-Stack Logo">
         </div>
-        <div class="col-md-8 text-right mt-1 menu">
+        <div class="d-none d-md-block col-md-8 text-right mt-1 fullMenu">
           <li><a href="#">Home</a></li>
           <li><a href="#">Alumni</a></li>
           <li><a href="#">Events</a></li>
           <li><a href="#">FS-GitHub</a></li>
           <li><a href="#">Contact Us</a></li>
         </div>
+
+        <div class="col-6 d-inline d-md-none mobile-menu text-right">
+          <button type="button" id="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-12 d-md-none  menu-hidden" id="dropMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Alumni</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">FS-GitHub</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+
       </nav>
     </div>
 

@@ -11,11 +11,12 @@ $(window).scroll(function(){
   else if($(window).scrollTop() < (topofNav + height) && !navSlide){
     $('#scrollNav').stop().animate({top: -60}, 500);
     navSlide = true;
-    // $('.collapsedNav').hide(); //Rehides the collapsed nav menu once you scroll back to the top
+    $('#dropMenu').slideUp("slow", function(){}); //Rehides the collapsed nav menu once you scroll back to the top
   }
 });
 
-// //Shows or hides the collapsed nav menu
-// $('#menuButton').on('click',function(){
-//   $('.collapsedNav').toggle();
-// });
+// //Shows or hides the collapsed drop down menu
+$('#menu-btn').click(function(e){
+		e.preventDefault(e);
+		$('#dropMenu').slideToggle('menu-hidden');
+});

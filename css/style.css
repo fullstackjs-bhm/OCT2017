@@ -19,7 +19,6 @@ font-family: 'Open Sans', sans-serif;
     top: -60px;
     left: 0;
     width: 100vw;
-    height: 55px;
     background-color: #000;
     overflow: auto;
     z-index: 9999;
@@ -29,9 +28,10 @@ font-family: 'Open Sans', sans-serif;
 #scrollNav div.logo img{
 	width: 170px;	
 	margin-left: 50px; 
+	margin-bottom: 8px;
 }
 
-#scrollNav div.menu{
+#scrollNav div.fullMenu{
 	padding: 0;
 	padding-right: 7px; 
 }
@@ -55,6 +55,41 @@ font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
 
+#menu-btn{
+	color: #FFFFFF;
+ 	border: 0;
+ 	background: none;
+ 	outline: none;
+ 	font-size: 1.4em;
+ 	padding: 0 10px 7px 15px;
+}
+
+#menu-btn:hover{
+	color: #AB61C4;
+	cursor: pointer;
+}
+
+.menu-hidden{
+	display: none;
+	border-top: 3px solid #AB61C4;
+	padding: 0;
+}
+
+#dropMenu li{
+	display: block;
+	text-align: center;
+	padding: 10px 0; 
+	border-bottom: 1px solid #FFF;
+	margin: 0;
+}
+
+#dropMenu li:last-child{
+	border-bottom: none;
+}
+
+#dropMenu li a{
+	text-decoration: none;
+}
 
 /***  Hero Area With Header Navbar  ***/
 
