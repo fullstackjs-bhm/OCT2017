@@ -112,6 +112,7 @@ header{
 	padding-top: 10px;
 }
 
+
 .overlay{
 	background: rgba(0,0,0,.5);
 	z-index: 5;
@@ -123,20 +124,33 @@ header{
 
 #hero li {
 	display: inline;
-	margin-right: 5px;
+	padding: 5px 10px;
+	margin-left: 5px;
+}
+
+#hero li:hover {
+	display: inline;
+	padding: 5px 10px;
+	border-bottom: 3px solid #98fb98;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#hero li.active {
+	color: #d3d3d3;
+	display: inline;
+	padding: 5px 10px;
+	border-bottom: 3px solid #98fb98;
+	font-weight: bold;
+	margin-left: 5px;
 }
 
 #hero a{
-	color: #ffffff;
+	text-decoration: none;
+	color: #fff;
 }
 
-#hero a:hover{
-	color: #AB61C4;
-	font-weight: bold;
-}
-
-#hero a:active{
-	color: #4A235A;
+#hero a:active{	
 	font-weight: bold;
 }
 
@@ -160,6 +174,11 @@ h2{
 	text-align: center;
 }
 
+h2.underline{
+	border-bottom: 3px solid #98fb98;
+	border-width: 100%;
+}
+
 .fltBanner{
 	margin: 30px auto;
 	border-top: 1px solid #d4d4d4;
@@ -175,4 +194,21 @@ h2{
 
 .toolBrands{
 	margin: 0 auto;
+}
+
+.infoArea{
+	background-color: #013220;
+	padding: 15px;
+	color: #fff;
+	padding-left: 5%;
+}
+
+.infoArea span{
+	color: #fffcb1;
+}
+.infoArea input{
+	width: 76%;
+}
+.infoArea a{
+	width: 25%;
 }

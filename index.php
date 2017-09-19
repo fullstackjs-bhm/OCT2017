@@ -5,11 +5,11 @@
     	<div class="container">
     	 	<div class="row">
     	 		<div class="col-12 col-md-6">
-    	 			<h2 class="text-center mt-3">WHAT IS FULL STACK?</h2>
+    	 			<h2 class="col-8 col-push-2 text-center mt-3 underline">WHAT IS FULL STACK?</h2>
     	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</p>
     	 	  </div>
     	 	  <div class="col-12 col-md-6">
-    	 			<h2 class="text-center mt-3">WHO IS FULL STACK FOR?</h2>
+    	 			<h2 class="col-8 col-push-2 text-center mt-3 underline">WHO IS FULL STACK FOR?</h2>
     	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at culpa veniam voluptatem aut cumque mollitia delectus. Deserunt incidunt totam minus aliquid, commodi id. Consequuntur quaerat illum harum quis pariatur.</p>
     	 	  </div>
     	 	</div>
@@ -29,6 +29,37 @@
         </div>
       </div>
 
+     <!-- infoArea&form -->
+      <div class="container-fluid mt-5 infoArea"> 
+       <div class="row">
+          <div class="col-12 col-md-6 tests">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quisquam vel, <br> unde cupiditate. Voluptates consequuntur eos atque sequi quas unde at sed, veritatis, eligendi tempora earum quo, facilis vero quis!</p>
+          </div>
+
+          <div class="col-12 col-md-6 text-center form">
+            <h2>Want More Info?</h2>
+            <h2><span>Complete This Form!</span></h2>
+            <input class="col-12 mt-1 name" placeholder="name" type="text">
+            <input class="col-12 mt-1  email" placeholder="email" type="text">
+            <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
+          </div>
+        </div>
+      </div> 
+
+    <!-- event section -->
+      <div class="container col-12 mt-5">
+       <h1 class="text-center">upcoming events</h1>
+        <div class="row">
+         <div class="col-6">
+           <h3>lorem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
+         </div>
+         <div class="col-6">
+           <h3>lorem</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident obcaecati aliquid tenetur earum, animi inventore eaque facilis quis non nostrum tempore ab. Nihil autem ullam ducimus iure aut, fugiat!</p>
+         </div>
+        </div>
+      </div>
 <?php
   require('includes/footer.php');
 ?>  	
