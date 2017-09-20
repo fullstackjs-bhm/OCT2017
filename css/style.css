@@ -3,6 +3,10 @@ h1, h2, h3{
 	font-family: 'Teko', sans-serif;
 }
 
+span{
+	font-family: 'Teko', sans-serif;
+}
+
 nav{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -220,4 +224,43 @@ h2.underline:after {
 }
 .infoArea a{
 	width: 25%;
+}
+
+/** events section **/
+
+.events{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.events .title{
+	text-shadow: #a9a9a9 1px 3px 1px;
+	margin-bottom: 10px;
+	margin-left: -5%;
+}
+
+.events .MG{
+    font-size: 32px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    padding-top: 0px;
+    
+}
+
+.events .bar{
+	border-right: 2px solid #96bee3;
+	width: 1px;
+	padding-left: 3%;
+}
+
+.events .eventDate{
+	padding-top: 2%;
+
+}
+
+/** github section **/
+
+.bottomBanner img{
+	padding-left: 7%;
 }

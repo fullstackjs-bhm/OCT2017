@@ -47,19 +47,36 @@
       </div> 
 
     <!-- event section -->
-      <div class="container col-12 mt-5">
-       <h1 class="text-center">upcoming events</h1>
+      <div class="container events col-12 mt-5">
+       <h2 class="text-center title">Upcoming Events</h1>
         <div class="row">
-         <div class="col-6">
-           <h3>lorem</h3>
+         <div class="eventA col-md-6">
+          <div class="row">
+             <div class="col-4"><span class="MG">Meet & Greet</span><span class="bar"></span></div>
+             <div class="col-8 eventDate"><p>lorem</p></div>
+          </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
-         </div>
-         <div class="col-6">
-           <h3>lorem</h3>
+          </div>
+         <div class="eventB col-md-6">
+          <div class="row">
+             <div class="col-4"><span class="MG">Meet & Greet</span><span class="bar"></span></div>
+             <div class="col-8 eventDate"><p>lorem</p></div>
+          </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident obcaecati aliquid tenetur earum, animi inventore eaque facilis quis non nostrum tempore ab. Nihil autem ullam ducimus iure aut, fugiat!</p>
          </div>
         </div>
       </div>
+      <hr>
+      
+      <!-- git hub banner -->
+
+  <div class="bottomBanner">
+    <div class="container-fluid">
+      <div class="col-12">
+        <img class="img-fluid" src="img/assets/GitHub image.png">
+      </div>
+    </div>
+  </div>
 <?php
   require('includes/footer.php');
 ?>  	
