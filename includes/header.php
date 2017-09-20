@@ -37,26 +37,30 @@
   <!--   Scrolling Navbar   -->
     <div class="container-fluid">
       <nav class="row" id="scrollNav">
-        <div class="d-inline col-6 col-md-4 logo">
+        <div class="col-6 col-md-4 d-inline logo">
           <img src="img/bhmLogo.png" alt="Full-Stack Logo">
         </div>
-        <div class="d-none d-md-block col-md-8 text-right mt-1 fullMenu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Alumni</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">FS-GitHub</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <div class="col-md-8 d-none d-md-block text-right fullMenu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">FS-GitHub</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
 
         <div class="col-6 d-inline d-md-none mobile-menu text-right">
           <button type="button" id="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
-        <div class="col-12 d-md-none  menu-hidden" id="dropMenu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Alumni</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">FS-GitHub</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <div class="col-12 d-md-none menu-hidden" id="dropMenu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">FS-GitHub</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
 
       </nav>
@@ -66,11 +70,11 @@
     <div id="hero" class="container-fluid">
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Alumni</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">FS-GitHub</a></li>
-          <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">FS-GitHub</a></li>
+            <li><a href="#">Contact Us</a></li>
         </nav>
       </header>
 

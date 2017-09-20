@@ -14,7 +14,7 @@ font-family: 'Open Sans', sans-serif;
 
 /***  Scrolling Navbar  ***/
 
-#scrollNav {
+#scrollNav{
 	position: fixed;
     top: -60px;
     left: 0;
@@ -28,34 +28,57 @@ font-family: 'Open Sans', sans-serif;
 #scrollNav div.logo img{
 	width: 170px;	
 	margin-left: 50px; 
-	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 #scrollNav div.fullMenu{
 	padding: 0;
-	padding-right: 5px; 
 }
 
-#scrollNav li {
-	display: inline;
-	padding: 5px 10px;
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.fullMenu li{
+	display: inline-block;
+	padding: 5px 10px 8px 10px;
 	margin-left: 5px;
+	text-align: center;
 }
 
-#scrollNav a{
-	color: white;
+.fullMenu li:nth-child(1){
+	width: 66px;
 }
 
-#scrollNav a:hover{
-	color: #AB61C4;
+.fullMenu li:nth-child(2){
+	width: 73px;
+}
+
+.fullMenu li:nth-child(3){
+	width: 70px;
+}
+
+.fullMenu li:nth-child(4){
+	width: 95px;
+}
+
+.fullMenu li:nth-child(5){
+	width: 101px;
+}
+
+.fullMenu li:hover {
+	border-bottom: 3px solid #98fb98;
 	font-weight: bold;
 }
 
-#scrollNav a:active{
-	color: #4A235A;
-	font-weight: bold;
+.fullMenu a{
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
+
+/*** Mobile Hamburger Menu ***/
 #menu-btn{
 	color: #FFFFFF;
  	border: 0;
@@ -82,6 +105,12 @@ font-family: 'Open Sans', sans-serif;
 	padding: 10px 0; 
 	border-bottom: 1px solid #FFF;
 	margin: 0;
+	/*width: 100%;*/
+}
+
+#dropMenu li:hover {
+	border-bottom: 3px solid #98fb98;
+	font-weight: bold;
 }
 
 #dropMenu li:last-child{
@@ -89,8 +118,23 @@ font-family: 'Open Sans', sans-serif;
 }
 
 #dropMenu li a{
+	color: #FFFFFF;
 	text-decoration: none;
 }
+
+@media screen (max-width:576px) {
+	#scrollNav{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+    	background-color: #000;
+    	overflow: auto;
+    	z-index: 9999;
+    	padding: 10px 10px 0 10px;
+	}
+}
+
 
 /***  Hero Area With Header Navbar  ***/
 
@@ -109,49 +153,63 @@ header{
 	z-index: 10;
 }
 
-#navBar{
-	padding-top: 10px;
-}
-
-
 .overlay{
 	background: rgba(0,0,0,.5);
 	z-index: 5;
 	width: 100%;
 	height: 550px;
 	position: relative;
-	margin-top: -34px;
+	margin-top: -44px;
 }
 
-#hero li {
-	display: inline;
-	padding: 5px 10px;
-	margin-left: 5px;
+#navBar{
+	padding-top: 10px;
+	height: 40px;
 }
 
-#hero li:hover {
-	display: inline;
+#navBar li{
+	display: inline-block;
 	padding: 5px 10px;
+	text-align: center;
+}
+
+#navBar li:nth-child(1){
+	width: 66px;
+}
+
+#navBar li:nth-child(2){
+	width: 73px;
+}
+
+#navBar li:nth-child(3){
+	width: 70px;
+}
+
+#navBar li:nth-child(4){
+	width: 95px;
+}
+
+#navBar li:nth-child(5){
+	width: 101px;
+}
+
+#navBar li:hover {
 	border-bottom: 3px solid #98fb98;
 	font-weight: bold;
-	margin-left: 5px;
 }
 
-#hero li.active {
+#navBar li.active {
 	color: #d3d3d3;
-	display: inline;
-	padding: 5px 10px;
 	border-bottom: 3px solid #98fb98;
 	font-weight: bold;
-	margin-left: 5px;
 }
 
-#hero a{
+#navBar a{
 	text-decoration: none;
 	color: #fff;
 }
 
-#hero a:active{	
+#navBar a:active{	
 	font-weight: bold;
 }
 
