@@ -221,6 +221,7 @@ header{
 	margin-bottom: 250px;
 	color: white;
 	text-shadow: 2px 2px #000;
+	margin-top: 3%;
 }
 
 #hero span{
@@ -230,7 +231,7 @@ header{
 .logoHero{
 	position: absolute;
 	z-index: 12;
-	margin-top: 10%;
+	margin-top: 15%;
 }
 
 h2{
@@ -278,10 +279,13 @@ h2.underline:after {
 	color: #fffcb1;
 }
 .infoArea input{
-	width: 76%;
+	width: 50%;
+	border: 2px solid #fffca9;
 }
 .infoArea a{
 	width: 25%;
+	display: block;
+	margin: 0 auto;
 }
 
 /** events section **/
@@ -321,4 +325,36 @@ h2.underline:after {
 
 .bottomBanner img{
 	padding-left: 7%;
+}
+
+/** fooooooter styling ******/
+
+.footer{
+	color: #D4D4D4;
+	background-color: #2d2d2d;
+}
+
+.footer h2{
+	color: white;
+	border-bottom: 2px solid #AB61C4;
+	width: 100%;
+}
+.footer h3{
+	margin-top: 4%;
+	color: #96bee3;
+}
+
+.footer p{
+	margin-top: 8%;
+}
+.footer img{
+	margin-top: 8%;
+}
+.footer li{
+	margin-top: 8%;
+	margin-left: 6%;
+}
+
+.feet{
+	padding: 0px 5px 5px 5px;
 }
