@@ -64,11 +64,11 @@ ul{
 }
 
 .fullMenu li:nth-child(4){
-	width: 95px;
+	width: 98px;
 }
 
 .fullMenu li:nth-child(5){
-	width: 101px;
+	width: 105px;
 }
 
 .fullMenu li:hover {
@@ -190,11 +190,11 @@ header{
 }
 
 #navBar li:nth-child(4){
-	width: 95px;
+	width: 98px;
 }
 
 #navBar li:nth-child(5){
-	width: 101px;
+	width: 105px;
 }
 
 #navBar li:hover {
@@ -230,8 +230,10 @@ header{
 .logoHero{
 	position: absolute;
 	z-index: 12;
-	margin-top: 10%;
+	margin-top: 15%;
 }
+
+/*** Start of content area ***/
 
 h2{
 	text-align: center;
@@ -244,11 +246,13 @@ h2.underline{
 h2.underline:after {
     content: '';
     position: absolute;
-    width: 60%;
-    left: 20%;
+    width: 70%;
+    left: 15%;
     bottom: 0px;
     border-bottom: 3px solid #98fb98;
 }
+
+/*** Flat Banner Area ***/
 
 .fltBanner{
 	margin: 30px auto;
@@ -267,6 +271,8 @@ h2.underline:after {
 	margin: 0 auto;
 }
 
+/*** Information Banner  ***/
+
 .infoArea{
 	background-color: #013220;
 	padding: 15px;
@@ -280,7 +286,7 @@ h2.underline:after {
 .infoArea input{
 	width: 76%;
 }
-.infoArea a{
+.infoArea .btn{
 	width: 25%;
 }
 

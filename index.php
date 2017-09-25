@@ -39,9 +39,11 @@
           <div class="col-12 col-md-6 text-center form">
             <h2>Want More Info?</h2>
             <h2><span>Complete This Form!</span></h2>
-            <input class="col-12 mt-1 name" placeholder="name" type="text">
-            <input class="col-12 mt-1  email" placeholder="email" type="text">
-            <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
+            <form action="scripts/sendContact.php" method="POST">
+              <input class="col-12 mt-1 name" placeholder="name" type="text" name="firstname">
+              <input class="col-12 mt-1  email" placeholder="email" type="text" name="email">
+              <input class= "col-12 mt-1 btn btn-success text-center" type="submit" value="Submit">
+            </form>  
           </div>
         </div>
       </div> 
