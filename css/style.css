@@ -276,6 +276,8 @@ h2.underline:after {
 
 .infoArea{
 	background-color: #013220;
+	background: #013220 url("../img/assets/minfoBg.jpg");
+	background-size: cover;
 	padding: 15px;
 	color: #fff;
 	padding-left: 5%;
