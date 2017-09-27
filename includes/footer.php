@@ -1,8 +1,8 @@
     <!-- Footer -->
       <div class="container-fluid footer">
-      
-        <div class="row">
-          <div class="col-md-3 mt-3 feet">
+        <div class="container">
+          <div class="row">
+            <div class=" col-12 col-md-4 mt-3 footerCol">
             <h2>About</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -10,51 +10,50 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-
-          <div class="col-md-3 mt-3 feet">
-            <h2>mscdkdsk</h2>
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>3</li>
-                <li>4</li>
-              </ul>
-          </div>
-
-          <div class="col-md-3 mt-3 feet">
-            <h2>fdslkjfdskl</h2>
-              <img src="http://via.placeholder.com/140x100" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-
-          <div class="col-md-3 mt-3 feet">
-            <h2>Contact</h2>
-             <div class=" col-12 col-md-12 text-center form">
-              <h3>Want More Info?</h3>
-              <h3><span>Complete This Form!</span></h3>
-              <input class="col-12 mt-1 name" placeholder="Name" type="text">
-              <input class="col-12 mt-1  email" placeholder="Email" type="text">
-              <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit </p>
+
+            <div class="col-12 col-md-5 mt-3 footerCol">
+            <h2>Directions</h2>
+             
+                <div class="row">
+                  <div class="col-6">
+                  <a href="https://www.google.com/maps/place/Jefferson+State+Community+College/@33.3855846,-86.7334231,15z/data=!4m2!3m1!1s0x0:0xd4c37f71253fa12?sa=X&ved=0ahUKEwj_vNeZhsTWAhXCTSYKHcpmBBkQ_BIIfDAK" target="_blank"/><img class="img-fluid" src="img/mapss.png" alt=""/></a>
+                </div>
+                  <div class="col-6">
+                  <p class="address pt-md-4 text-left">4600 Valleydale Road <br>Birmingham, Alabama 35242 <br>(205) 983-5911/(800) 239-5900</p>
+                  </div>
+                </div>
+               
+                <div class="row">
+                  <div class="col-6">
+                  <a href="https://www.google.com/maps/place/Jefferson+State+Community+College/@33.6525536,-86.7082145,15z/data=!4m2!3m1!1s0x0:0xb67ff201abd54339?sa=X&ved=0ahUKEwju1NKYiMTWAhUBxiYKHRZDCnAQ_BIIiQEwCg" target="_blank"/><img class="img-fluid" src="img/mapsj.png" alt=""/></a>
+                  </div>
+                  <div class="col-6">
+                    <p class="address pt-md-4 text-left">2601 Carson Road <br>Birmingham, Alabama 35215 <br>(205) 853-1200/(800) 239-5900</p>
+                  </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-3 mt-3 text-center form">
+            <h2>Contact Us</h2>
+            <input class="col-12 mt-1 name" placeholder="Name" type="text">
+            <input class="col-12 mt-1  email" placeholder="Email" type="text">
+            <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
+          </div>
+
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-6">&copy; copyright 2017/2018</div>
-          <div class="col-md-6 text-right"><a href="??">Terms&Conditions</a> / <a href="??">Privacy Policy</a></div>
+        <div class="row copyTerms">
+          <div class="col-6 text-left">&copy; copyright 2017/2018</div>
+          <div class="col-6 text-right"><a href="??">Terms&amp;Conditions</a> | <a href="??">Privacy Policy</a></div>
         </div>
-    </div>
+    
+      </div>
+    
+    
 
 <!--  *** End of page scripts ***  -->
     <!-- Current jQuery CDN -->

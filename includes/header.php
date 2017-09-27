@@ -42,9 +42,9 @@
         </div>
         <div class="col-md-8 d-none d-md-block text-right fullMenu">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Alumni</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="#">FS-GitHub</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
@@ -55,9 +55,9 @@
         </div>
         <div class="col-12 d-md-none menu-hidden" id="dropMenu">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Alumni</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="#">FS-GitHub</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
@@ -70,9 +70,9 @@
     <div id="hero" class="container-fluid">
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Alumni</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="#">FS-GitHub</a></li>
             <li><a href="#">Contact Us</a></li>
         </nav>
