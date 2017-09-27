@@ -41,7 +41,7 @@
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>
           </ul>
@@ -53,7 +53,7 @@
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>
           </ul>
@@ -67,7 +67,7 @@
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
             <li><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>
         </nav>

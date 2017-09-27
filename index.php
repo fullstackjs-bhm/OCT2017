@@ -49,37 +49,33 @@
       </div> 
 
     <!-- event section -->
-      <div class="container events col-12 mt-5">
-       <h1 class="text-center title">Upcoming Events</h1>
+      <div class="container events">
         <div class="row mt-5">
-         <div class="eventA col-md-6">
-          <div class="row">
-             <div class="col-6"><span class="MG">Meet & Greet</span><span class="bar"></span></div>
-             <div class="col-6 eventDate"><p>lorem</p></div>
-          </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
-          </div>
-         <div class="eventB col-md-6">
-          <div class="row">
-             <div class="col-6"><span class="MG">Meet & Greet</span><span class="bar"></span></div>
-             <div class="col-6 eventDate"><p>lorem</p></div>
-          </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident obcaecati aliquid tenetur earum, animi inventore eaque facilis quis non nostrum tempore ab. Nihil autem ullam ducimus iure aut, fugiat!</p>
-         </div>
+         <h2 class="col-12 text-center">Upcoming Events</h2>
+          <hr>
+            <div class="col-md-6 events">
+              <h3 class="event-title text-center">Meet &amp; Greet<span class="blue"> | </span><span class="date">Lorem</span></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
+            </div>
+            <div class="col-md-6 events">
+              <h3 class="event-title text-center">Meet &amp; Greet<span class="blue"> | </span><span class="date">Lorem</span></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
+            </div>
         </div>
       </div>
 
       <hr>
       
-      <!-- git hub banner -->
-
-      <div class="bottomBanner">
-        <div class="container-fluid">
-          <div class="col-12">
-            <img class="img-fluid" src="img/assets/GitHub image.png">
-          </div>
-        </div>
+  <!-- git hub banner -->
+  <div class="bottomBanner">
+    <div class="container-fluid">
+      <div class="col-12">
+        <h1 class="text-center">Visit our GitHub Page! <br>Click Below</h1>
+        <h1 class="arrow text-center">&#x21E3;</h1>
+        <a href="https://github.com/fullstackjs-bhm/OCT2017" target="_blank"><img class="img-fluid" src="img/assets/GitHub image.png"></a>
       </div>
+    </div>
+  </div>
 
 <?php
   require('includes/footer.php');
