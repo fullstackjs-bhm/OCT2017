@@ -1,6 +1,5 @@
     <!-- Footer -->
       <div class="container-fluid footer">
-      
         <div class="row">
           <div class="col-md-3 mt-3 feet">
             <h2>About</h2>
@@ -25,7 +24,7 @@
 
           <div class="col-md-3 mt-3 feet">
             <h2>fdslkjfdskl</h2>
-              <img src="http://via.placeholder.com/140x100" alt="">
+              <img src="http://via.placeholder.com/140x100" alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -36,7 +35,7 @@
 
           <div class="col-md-3 mt-3 feet">
             <h2>Contact</h2>
-             <div class=" col-12 col-md-12 text-center form">
+            <div class=" col-12 col-md-12 text-center form">
               <h3>Want More Info?</h3>
               <h3><span>Complete This Form!</span></h3>
               <input class="col-12 mt-1 name" placeholder="Name" type="text">
@@ -52,7 +51,11 @@
 
         <div class="row">
           <div class="col-md-6">&copy; copyright 2017/2018</div>
-          <div class="col-md-6 text-right"><a href="??">Terms&Conditions</a> / <a href="??">Privacy Policy</a></div>
+          <div class="col-md-6 text-right">
+            <a href="??">Terms&Conditions</a>
+            <span>|</span> 
+            <a href="??">Privacy Policy</a>
+          </div>
         </div>
     </div>
 

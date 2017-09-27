@@ -16,7 +16,9 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
-/***  Scrolling Navbar  ***/
+/*****************************************
+          Scrolling Navbar  
+*******************************************/
 
 #scrollNav{
 	position: fixed;
@@ -82,7 +84,9 @@ ul{
 }
 
 
-/*** Mobile Hamburger Menu ***/
+/************************************
+		Mobile Hamburger Menu
+*************************************/
 #menu-btn{
 	color: #FFFFFF;
  	border: 0;
@@ -140,7 +144,9 @@ ul{
 }
 
 
-/***  Hero Area With Header Navbar  ***/
+/***********************************
+	Hero Area With Header Navbar
+***********************************/
 
 #hero{
 	background-image: url("../img/shelby.png");
@@ -234,7 +240,9 @@ header{
 	margin-top: 15%;
 }
 
-/*** Start of content area ***/
+/***************************************
+	    Start of content area 
+****************************************/
 
 h2{
 	text-align: center;
@@ -253,7 +261,9 @@ h2.underline:after {
     border-bottom: 3px solid #98fb98;
 }
 
-/*** Flat Banner Area ***/
+/**************************************
+		Flat Banner Area 
+***************************************/
 
 .fltBanner{
 	margin: 30px auto;
@@ -272,7 +282,9 @@ h2.underline:after {
 	margin: 0 auto;
 }
 
-/*** Information Banner  ***/
+/**************************************
+		Information Banner  
+***************************************/
 
 .infoArea{
 	background-color: #013220;
@@ -296,7 +308,9 @@ h2.underline:after {
 	margin: 0 auto;
 }
 
-/** events section **/
+/************************************
+		Events section 
+************************************/
 
 .events{
 	padding-left: 5%;
@@ -329,17 +343,22 @@ h2.underline:after {
 
 }
 
-/** github section **/
+/************************************
+		Github section 
+*************************************/
 
 .bottomBanner img{
 	padding-left: 7%;
 }
 
-/** fooooooter styling ******/
+/******************************
+		Footer styling 
+*******************************/
 
 .footer{
 	color: #D4D4D4;
 	background-color: #2d2d2d;
+	clear: both;
 }
 
 .footer h2{
@@ -365,4 +384,252 @@ h2.underline:after {
 
 .feet{
 	padding: 0px 5px 5px 5px;
+}
+
+/*********************************
+		Alumni Header
+**********************************/
+#alumniHero{
+	background-image: url("../img/graduationCaps.jpg");
+	background-size: cover;
+	padding: 0;
+}
+
+#alumniHero header{
+	position: relative;
+	z-index: 10;
+}
+#alumniHero h2{
+	color: white;
+	text-shadow: 2px 2px #000;
+	margin-top: 1%;
+}
+#alumniHero span{
+	color: #96dbee;
+}
+#alumniHero h1{
+	color: white;
+	text-shadow: 2px 2px #000;
+	margin-top: 0.8%;
+}
+#alumniHero .overlay{
+	background: rgba(0,0,0,.5);
+	z-index: 5;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	margin-top: -44px;
+}
+#alumniHero .logoHero{
+	position: absolute;
+	z-index: 10;
+	margin-top: 4%;
+}
+
+/***********************************
+		Alumni Login
+***********************************/
+.grey-bg{
+	background: #d4d4d4;
+}
+
+.alumniLogin{
+	padding-top: 10px;
+}
+.alumniLogin label{
+	padding-top: 5px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.alumniLogin input[type=email],
+.alumniLogin input[type=password]{
+	padding:5px;
+}
+
+/**********************************
+		Alumni Profile Cards 
+***********************************/
+
+.cards {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 1.875em auto;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;  
+  color: #eeeeee;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  font-size: 1em;
+  background-color: #212121;
+}
+
+.cards * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  padding: 0;
+}
+
+.cards img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.cards .image {
+  position: relative;
+  border-bottom: 4px solid #98fb98;
+  z-index: 1;
+}
+
+.cards .image:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #98fb98 transparent transparent transparent;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -15px);
+  transform: translate(-50%, -15px);
+  z-index: -1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.cards .image p {
+  font-weight: 500;
+  margin: 0;
+  padding: 0 20px;
+  line-height: 1.6em;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #ffffff;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0;
+  font-style: italic;
+}
+
+.cards figcaption {
+  background-color: #2d2d2d;
+  padding: 25px;
+}
+
+.cards h3{
+  margin: 0 0 5px;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.cards span{
+  font-weight: bold;
+}
+
+.cards h5 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cards a{
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  width: 45%;
+  height: 35px;
+  background: #bdc3c7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.cards a i{
+  display: inline-block;
+  font-size: 1.6em;
+  vertical-align:sub;
+}
+
+.cards a:last-child{
+  background: #AB61C4;
+  width: 91.5%;
+  margin-top: 5px;
+  color: #000;
+}
+
+.cards a:last-child i{
+  color: #000;
+}
+
+.cards a:hover {
+  background-color: #98fb98;
+  color: #212121;
+}
+
+.cards a:last-child::hover {
+  background-color: #98fb98;
+  color: #212121;
+}
+.cards:hover .image:before {
+  border-color: #98fb98 transparent transparent transparent;
+  -webkit-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+
+.cards:hover .image p {
+  opacity: 1;
+}
+
+.cards:hover img {
+  opacity: 0.2;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.row{
+		margin: 0 auto;
+	}
+	.cards{
+		margin: 1.875em 25px;
+	}
+}
+
+
+
+/***********************************
+		FS Github Page
+***********************************/
+
+/***********************************
+		FS Github Cards
+***********************************/
+.fs-github-cards .card{
+	box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+/**********************************
+		Contact Page
+**********************************/
+.contact-content{
+	padding-top: 2%;
+}
+.contact-input{
+	border-right: 5px solid #d4d4d4;
+}
+
+.contact-banner h1{
+	font-size: 3.2em;
+}
+
+@media screen and (max-width: 768px){
+	.contact-input{
+		border-right: 0;
+	}
 }

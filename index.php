@@ -50,7 +50,7 @@
 
     <!-- event section -->
       <div class="container events col-12 mt-5">
-       <h2 class="text-center title">Upcoming Events</h1>
+       <h1 class="text-center title">Upcoming Events</h1>
         <div class="row mt-5">
          <div class="eventA col-md-6">
           <div class="row">
@@ -68,17 +68,18 @@
          </div>
         </div>
       </div>
+
       <hr>
       
       <!-- git hub banner -->
 
-  <div class="bottomBanner">
-    <div class="container-fluid">
-      <div class="col-12">
-        <img class="img-fluid" src="img/assets/GitHub image.png">
+      <div class="bottomBanner">
+        <div class="container-fluid">
+          <div class="col-12">
+            <img class="img-fluid" src="img/assets/GitHub image.png">
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
 <?php
   require('includes/footer.php');

@@ -26,14 +26,12 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-
+    
     <!-- Fontawesome Icons -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
   
   </head>
-
   <body>   
-
   <!--   Scrolling Navbar   -->
     <div class="container-fluid">
       <nav class="row" id="scrollNav">
@@ -49,7 +47,6 @@
             <li><a href="contact.php">Contact Us</a></li>
           </ul>
         </div>
-
         <div class="col-6 d-inline d-md-none mobile-menu text-right">
           <button type="button" id="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
@@ -62,12 +59,11 @@
             <li><a href="contact.php">Contact Us</a></li>
           </ul>
         </div>
-
       </nav>
     </div>
 
 <!--     Hero Area     -->
-    <div id="hero" class="container-fluid">
+    <div id="alumniHero" class="container-fluid">
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
             <li><a href="index.php">Home</a></li>
@@ -77,13 +73,11 @@
             <li><a href="contact.php">Contact Us</a></li>
         </nav>
       </header>
-
       <div class="col-12 text-center logoHero">
         <img class="img-fluid" src="img/assets/bhmLogo.png">
         <h2>The New <span>CAREER CHANGING</span> Opportunity </h2>
+        <h1>FULLSTACK GITHUB</h1>
       </div>
-
       <div class="overlay"></div>
-
     </div>
   
