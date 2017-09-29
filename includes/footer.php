@@ -31,10 +31,10 @@
               </div>
             </div>
             
-            <div class="col-12 col-md-3 mt-3 text-center form">
+            <div class="col-12 col-md-3 my-3 text-center form">
               <h2>Contact Us</h2>
-              <input class="col-12 mt-1 name" placeholder="Name" type="text">
-              <input class="col-12 mt-1  email" placeholder="Email" type="text">
+              <input class="col-12 mt-1 name input" placeholder="Name" type="text">
+              <input class="col-12 mt-1  email input" placeholder="Email" type="text">
               <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
             </div>
           </div>

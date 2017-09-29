@@ -7,9 +7,9 @@
 
  	<div class="container my-5">
  		<div class="row">
- 			<div class="col-md-2 col-12 mb-2 dateBox">
- 				<div class="col-12 text-center mt-2 month"><p>OCT</p></div>
- 				<div class="col-12 text-center mt-3 day"><h1>20</h1></div>
+ 			<div class="col-md-2 col-12 mb-2 dateBox"> 
+ 					<div class="col-12 text-center mt-2 month"><h2>OCT</h2></div>
+ 					<div class="col-12 text-center day"><p>20</p></div>
  			</div>
 
  			<div class="col-md-10 col-12">
@@ -22,9 +22,9 @@
 	
 	<div class="container my-5">
  		<div class="row">
- 			<div class="col-md-2 col-12 mb-2 dateBox">
- 				<div class="col-12 text-center mt-2 month"><p>OCT</p></div>
- 				<div class="col-12 text-center mt-3 day"><h1>20</h1></div>
+ 			<div class="col-md-2 col-12 mb-2 dateBox"> 
+ 					<div class="col-12 text-center mt-2 month"><h2>OCT</h2></div>
+ 					<div class="col-12 text-center day"><p>20</p></div>
  			</div>
 
  			<div class="col-md-10 col-12">
@@ -37,9 +37,9 @@
 
  	<div class="container my-5">
  		<div class="row">
- 			<div class="col-md-2 col-12 mb-2 dateBox">
- 				<div class="col-12 text-center mt-2 month"><p>OCT</p></div>
- 				<div class="col-12 text-center mt-3 day"><h1>20</h1></div>
+ 			<div class="col-md-2 col-12 mb-2 dateBox"> 
+ 					<div class="col-12 text-center mt-2 month"><h2>OCT</h2></div>
+ 					<div class="col-12 text-center day"><p>20</p></div>
  			</div>
 
  			<div class="col-md-10 col-12">

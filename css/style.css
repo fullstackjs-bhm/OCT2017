@@ -264,7 +264,11 @@ h2.underline:after {
     bottom: 0px;
     border-bottom: 3px solid #98fb98;
 }
+.input{
+	height: 30px
+	padding 5px;
 
+}
 /**************************************
 		Flat Banner Area 
 ***************************************/
@@ -304,6 +308,8 @@ h2.underline:after {
 }
 .infoArea input{
 	width: 50%;
+	height: 30px
+	padding 5px;
 }
 .infoArea .btn{
 	width: 25%;
@@ -398,17 +404,33 @@ span.date{
 ********************************/
 
 .dateBox{
-	border-radius: 15px 50px 25px 50px;
+
+}
+.day{
+	border-radius: 0px 0px 15px 50px;
 	border: solid black 1px;
-	width: 50px;
-
+	border-top: none;
+	width: 150px;
+	background-color: #96bee3;
+	box-shadow: 5px 3px 11px black;
+	color: white;
+	background-color: #ab61c4;
+	font-size: 2.5em;
+	font-weight: bold;
 }
-
 .month{
-	border-bottom: solid black 1px;
-	height: 35px;
-}
+	border-radius: 15px 50px 0px 0px;
+	border: solid black 1px;
+	width: 150px;
+	background-color: #96bee3;
+	box-shadow: 5px 3px 14px black;
+	color: white;
+	background-color: black;
 
+}
+.month h2{
+	margin-top: 10px;
+}
 /*********************************
 		Alumni Header
 **********************************/
