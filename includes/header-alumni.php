@@ -41,7 +41,7 @@
         <div class="col-md-8 d-none d-md-block text-right fullMenu">
           <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="alumni.php">Alumni</a></li>
+            <li class="active"><a href="alumni.php">Alumni</a></li>
             <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>
@@ -67,7 +67,7 @@
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
             <li><a href="index.php">Home</a></li>
-            <li><a href="alumni.php">Alumni</a></li>
+            <li class="active"><a href="alumni.php">Alumni</a></li>
             <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>

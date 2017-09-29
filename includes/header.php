@@ -1,5 +1,6 @@
 <?php
  //All PHP Code will go here.
+  $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 
 
@@ -42,7 +43,7 @@
         </div>
         <div class="col-md-8 d-none d-md-block text-right fullMenu">
           <ul>
-            <li><a href="index.php">Home</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
             <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>
@@ -70,7 +71,7 @@
     <div id="hero" class="container-fluid">
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
-            <li><a href="index.php">Home</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
             <li><a href="events.php">Events</a></li>
             <li><a href="fs-github.php">FS-GitHub</a></li>

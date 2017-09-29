@@ -43,7 +43,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
             <li><a href="events.php">Events</a></li>
-            <li><a href="fs-github.php">FS-GitHub</a></li>
+            <li class="active"><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>
           </ul>
         </div>
@@ -63,13 +63,13 @@
     </div>
 
 <!--     Hero Area     -->
-    <div id="alumniHero" class="container-fluid">
+    <div id="fs-githubHero" class="container-fluid">
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
             <li><a href="index.php">Home</a></li>
             <li><a href="alumni.php">Alumni</a></li>
             <li><a href="events.php">Events</a></li>
-            <li><a href="fs-github.php">FS-GitHub</a></li>
+            <li class="active"><a href="fs-github.php">FS-GitHub</a></li>
             <li><a href="contact.php">Contact Us</a></li>
         </nav>
       </header>
