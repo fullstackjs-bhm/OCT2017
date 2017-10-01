@@ -28,7 +28,7 @@ font-family: 'Open Sans', sans-serif;
 	position: fixed;
     top: -60px;
     left: 0;
-    width: 100vw;
+    width: 100%;
     background-color: #000;
     overflow: auto;
     z-index: 9999;
@@ -247,7 +247,7 @@ header{
 .logoHero{
 	position: absolute;
 	z-index: 12;
-	margin-top: 15%;
+	margin-top: 8%;
 }
 
 /***************************************
@@ -270,9 +270,10 @@ h2.underline:after {
     bottom: 0px;
     border-bottom: 3px solid #98fb98;
 }
-.input{
-	height: 30px
-	padding 5px;
+
+input[type=text]{
+	height: 40px;
+	padding: 5px;
 
 }
 /**************************************
@@ -306,7 +307,6 @@ h2.underline:after {
 	background-size: cover;
 	padding: 15px;
 	color: #fff;
-	padding-left: 5%;
 }
 
 .infoArea span{
@@ -327,10 +327,6 @@ h2.underline:after {
 		Events section 
 ************************************/
 
-.events{
-	padding: 0;
-	
-}
 .events h2{
 	padding-right: ;
 }
@@ -358,8 +354,10 @@ h2.underline:after {
 	padding-left: 3%;
 }
 
-span.date{
+.event-date{
 	font-size: .8em;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
 }
 
 /************************************
