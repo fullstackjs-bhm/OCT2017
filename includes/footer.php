@@ -35,7 +35,7 @@
           </div>
 
           <div class="row py-3 copyTerms">
-            <div class="col-12 col-md-6 text-center text-md-left">&copy; Copyright <?php echo date('Y'); ?></div>
+            <div class="col-12 col-md-6 text-center text-md-left">&copy; Copyright <?php echo date('Y'); ?> Full Stack BHM</div>
             <div class="col-12 col-md-6 text-center text-md-right"><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></div>
           </div>
       </div>
