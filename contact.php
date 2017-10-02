@@ -8,7 +8,7 @@
 			<form class="form-group" action="" method="" >
 				<input class="col-12 col-md-8 d-block my-2 mx-auto input" type="text" name="contactName" placeholder="Your Name" />
 				<input class="col-12 col-md-8 d-block mx-auto input" type="email" name="email" placeholder="Email Address" />
-				<textarea rows="8" class="col-12 col-md-8 d-block my-2 mx-auto" name="message" placeholder="Enter Your Message Here...">Enter Your Message Here...</textarea>
+				<textarea rows="8" class="col-12 col-md-8 d-block my-2 mx-auto" name="message" placeholder="Enter Your Message Here..."></textarea>
 				<input class="d-block col-12 col-md-8 btn btn-success mx-auto input"  type="submit" value="Send" />
 			</form>
 		</div>

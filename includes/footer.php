@@ -4,7 +4,7 @@
           <div class="row">
             <div class=" col-12 col-md-4 mt-3 footerCol">
               <h2>About</h2>
-                <p>The Full Stack Coding program is a fifteen week immersive course in web development. It has been designed to aid participants in gaining the skills necessary to secure an entry-level position as a web developer in today’s job market. The training is focused on HTML, CSS, JavaScript, MySQL, and PHP, as these languages are some core fundamental languages to develop for the World Wide Web.</p>
+                <p>The Full Stack Coding program is a fifteen week immersive course in web development. It has been designed to aid participants in gaining the skills necessary to secure an entry-level position as a web developer in today’s job market. The training is focused on HTML, CSS, JavaScript, MySQL, and PHP as these languages are some core fundamental languages to develop for the World Wide Web.</p>
             </div>
             <div class="col-12 col-md-5 mt-3 footerCol">
               <div class="row">
@@ -29,13 +29,13 @@
             <div class="col-12 col-md-3 my-3 text-center form">
               <h2>Contact Us</h2>
               <input class="col-12 mt-1 name input" placeholder="Name" type="text">
-              <input class="col-12 mt-1  email input" placeholder="Email" type="text">
+              <input class="col-12 mt-1  email input" placeholder="Email Address" type="text">
               <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
             </div>
           </div>
 
           <div class="row py-3 copyTerms">
-            <div class="col-12 col-md-6 text-center text-md-left">&copy; Copyright <?php echo date('Y'); ?></div>
+            <div class="col-12 col-md-6 text-center text-md-left">&copy; Copyright <?php echo date('Y'); ?> Full Stack BHM</div>
             <div class="col-12 col-md-6 text-center text-md-right"><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></div>
           </div>
       </div>

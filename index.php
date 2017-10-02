@@ -6,8 +6,8 @@
     	 	<div class="row">
     	 		<div class="col-12 col-md-6">
     	 			<h2 class="col-12 text-center mt-3 underline">WHAT IS FULL STACK?</h2>
-    	 			<p>The Full Stack Coding program is a fifteen week immersive course in web development. It has been designed to aid participants in gaining the skills necessary to secure an entry-level position as a web developer in today’s job market. The training is focused on HTML, CSS, JavaScript, MySQL, and PHP, as these languages are some core fundamental languages to develop for the World Wide Web.</p>
-            <p>By this course being a part of JSCC Career Development Department, students Do Not receive credit hours towards any academics or college courses of any kind. This is a course strictly for personal growth and development of all individuals who desire to attend the Full Stack Coding training.
+    	 			<p>The Full Stack Coding program is a fifteen week immersive course in web development. It has been designed to aid participants in gaining the skills necessary to secure an entry-level position as a web developer in today’s job market. The training is focused on HTML, CSS, JavaScript MySQL, and PHP, as these languages are some core fundamental languages to develop for the World Wide Web.</p>
+            <p>By this course being a part of JSCC Career Development Department students Do Not receive credit hours towards any academics or college courses of any kind. This is a course strictly for personal growth and development of all individuals who desire to attend the Full Stack Coding training.
             </p>
     	 	  </div>
     	 	  <div class="col-12 col-md-6">
