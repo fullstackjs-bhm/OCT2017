@@ -1,6 +1,23 @@
 <?php
  //All PHP Code will go here.
-  $currentPage = basename($_SERVER['PHP_SELF']);
+  $currentPage = basename($_SERVER['PHP_SELF'],".php");
+  $headerText = '';
+
+  if ($currentPage === 'index'){
+    $heroId = "hero";
+  } elseif ($currentPage === 'alumni') {
+    $heroId = "alumniHero";
+    $headerText = "<h1>"."ALUMNI"."</h1>";
+  } elseif ($currentPage === 'events') {
+    $heroId = "eventsHero";
+    $headerText = "<h1>"."UPCOMING EVENTS"."</h1>";
+  } elseif ($currentPage === 'fs-github') {
+    $heroId = "fs-githubHero";
+    $headerText = "<h1>"."FULLSTACK GITHUB"."</h1>";
+  } else {
+    $heroId = "contactHero";
+    $headerText = "<h1>"."CONTACT US"."</h1>";
+  }
 ?>
 
 
@@ -43,11 +60,11 @@
         </div>
         <div class="col-md-8 d-none d-md-block text-right fullMenu">
           <ul>
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="alumni.php">Alumni</a></li>
-            <li><a href="events.php">Events</a></li>
-            <li><a href="fs-github.php">FS-GitHub</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li class="<?php echo ("$currentPage" == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>
+            <li class="<?php echo ("$currentPage" == 'alumni') ? 'active':''; ?>"><a href="alumni.php">Alumni</a></li>
+            <li class="<?php echo ("$currentPage" == 'events') ? 'active':''; ?>"><a href="events.php">Events</a></li>
+            <li class="<?php echo ("$currentPage" == 'fs-github') ? 'active':''; ?>"><a href="fs-github.php">FS-GitHub</a></li>
+            <li class="<?php echo ("$currentPage" == 'contact') ? 'active':''; ?>"><a href="contact.php">Contact Us</a></li>
           </ul>
         </div>
 
@@ -68,20 +85,21 @@
     </div>
 
 <!--     Hero Area     -->
-    <div id="hero" class="container-fluid">
+    <div id="<?php echo $heroId ?>" class="container-fluid">
       <header>
         <nav class="d-none d-sm-block col-md-12 text-right" id="navBar">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="alumni.php">Alumni</a></li>
-            <li><a href="events.php">Events</a></li>
-            <li><a href="fs-github.php">FS-GitHub</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li class="<?php echo ("$currentPage" == 'index') ? 'active':''; ?>"><a href="index.php">Home</a></li>
+            <li class="<?php echo ("$currentPage" == 'alumni') ? 'active':''; ?>"><a href="alumni.php">Alumni</a></li>
+            <li class="<?php echo ("$currentPage" == 'events') ? 'active':''; ?>"><a href="events.php">Events</a></li>
+            <li class="<?php echo ("$currentPage" == 'fs-github') ? 'active':''; ?>"><a href="fs-github.php">FS-GitHub</a></li>
+            <li class="<?php echo ("$currentPage" == 'contact') ? 'active':''; ?>"><a href="contact.php">Contact Us</a></li>
         </nav>
       </header>
 
       <div class="col-12 text-center logoHero">
         <img class="img-fluid" src="img/assets/bhmLogo.png">
         <h2>The New <span>CAREER CHANGING</span> Opportunity </h2>
+         <?php echo $headerText ?>
       </div>
 
       <div class="overlay"></div>

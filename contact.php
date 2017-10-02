@@ -1,5 +1,5 @@
 <?php 
-	require('includes/header-contact.php');
+	require('includes/header.php');
 ?>
 
 <div class="container contact-content">

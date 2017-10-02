@@ -1,5 +1,5 @@
 <?php 
-	require('includes/header-fs-github.php');
+	require('includes/header.php');
 ?>
 <!-- Github Link Cards -->
 <div class="container">

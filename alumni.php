@@ -1,6 +1,5 @@
 <?php 
-	require('includes/header-alumni.php');
-	// require('includes/header.php');
+	require('includes/header.php');
 ?>
 
 <!-- Alumni Login -->
