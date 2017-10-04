@@ -13,9 +13,15 @@
 			</form>
 		</div>
 		<div class="col-12 col-md-6 p-4">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia hic repudiandae animi accusamus quod consequatur. Magni ad enim reprehenderit temporibus deserunt nam ullam consequatur, natus alias quibusdam maiores voluptates, nihil!</p>
-			<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptatum molestias, similique quas, doloribus tempora ducimus dolorem distinctio odit quam omnis, nulla fuga praesentium, eos laboriosam eius quod recusandae quis.</blockquote>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque neque unde, ratione obcaecati laboriosam est aut modi nostrum nisi a, maiores quas quo! Ducimus dolorem est quas quasi qui.</p>
+			
+
+			<div>
+				<img src="img/founder.png" class="img-fluid my-3"><img src="img/founder.png" class="img-fluid my-3"><img src="img/founder.png" class="img-fluid my-3">
+
+				<p>If any individual desires to change careers or take on a new challenge in the information technology industry as a web developer, well this is the course that makes it possible! If you have any additional questions, please complete our contact form for additional information.</p>
+				
+				<img src="img/founder.png" class="img-fluid my-3"><img src="img/founder.png" class="img-fluid my-3"><img src="img/founder.png" class="img-fluid my-3">
+			</div>
 		</div>
 	</div>
 	<!-- Banner -->
