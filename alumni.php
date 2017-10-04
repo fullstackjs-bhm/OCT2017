@@ -1,5 +1,21 @@
 <?php 
 	require('includes/header.php');
+  require('scripts/db-config.php');
+
+  $date = new DateTime();
+  // $dt = $date->setDate(2017,10,1); 
+    
+  // echo $dt->format('F Y');
+
+  $sql = 'SELECT * FROM alumni';
+
+  $statement = $conn->prepare($sql);
+  $statement->execute();
+  $users = $statement->fetchAll();
+  $statement->closeCursor();
+
+
+
 ?>
 
 <!-- Alumni Login -->
@@ -20,25 +36,29 @@
 <!-- Profile Cards Section -->
 <div class="container">
   <div class="row">
+
+    <?php foreach($users as $user){ ?>
     <!-- Profile Card -->
     <figure class="cards float-md-left"> 
       <div class="image"> <!-- User Image with text overlay -->
-        <img src="https://i2.wp.com/codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png?ssl=1" alt="sample70"/>
+        <img src="<?php echo $user['profile_img_src']; ?>" alt="sample70"/>
         <!-- Bio Info -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic sint quidem culpa. Nostrum nesciunt, autem officia facilis quis ratione enim velit minus accusantium harum quo libero quidem provident soluta.</p>
+        <p><?php echo $user['short_bio']; ?></p>
       </div>
      
       <figcaption> <!-- Basic Profile Info -->
-        <h3>Brad</h3>
-        <h3><span>Bales</span></h3>
-        <h5>October 2017</h5>
+        <h3><?php echo $user['firstname']; ?></h3>
+        <h3><span><?php echo $user['lastname']; ?></span></h3>
+        <h5><?php $dt = $date->setDate($user['completion_year'], $user['completion_month'], 1); echo $dt->format('F Y'); ?></h5>
         <div class="icons"> <!-- Links -->
-          <a href="#">Codepen <i class="fa fa-codepen"></i></a>
-          <a href="#">Gituhub <i class="fa fa-github"></i></a>
-          <a href="#">LinkedIn <i class="fa fa-linkedin-square"></i></a>    
+          <a href="<?php echo $user['social_url_1']; ?>" target="_blank">Codepen <i class="fa fa-codepen"></i></a>
+          <a href="<?php echo $user['social_url_2']; ?>" target="_blank">Gituhub <i class="fa fa-github"></i></a>
+          <a href="<?php echo $user['social_url_3']; ?>" target="_blank">LinkedIn <i class="fa fa-linkedin-square"></i></a>    
         </div>
       </figcaption>
     </figure>
+
+    <?php } ?>
 
     <!--Profile Card 2 -->
     <figure class="cards float-md-left">

@@ -1,5 +1,17 @@
 <?php 
   require('includes/header.php');
+  require('scripts/db-config.php');
+
+  $date = new DateTime();
+
+  $sql = 'SELECT event_name, event_description, event_date FROM fsevents WHERE event_date > NOW() LIMIT 2';
+
+  $statement = $conn->prepare($sql);
+  $statement->execute();
+  $events = $statement->fetchAll();
+  $statement->closeCursor();
+
+
 ?>
     <!-- Container content -->
     	<div class="container">
@@ -63,14 +75,12 @@
         <div class="row mt-5">
          <h2 class="col-12 text-center">Upcoming Events</h2>
           <hr>
+            <?php foreach ($events as $event) { ?>
             <div class="col-md-5 ml-md-auto events">
-              <h3 class="event-title text-center">Meet &amp; Greet<span class="blue"> | </span><span class="event-date">Oct. 10<sup>th</sup> @ 7pm</span></h3>
+              <h3 class="event-title text-center"><?php echo $event['event_name']; ?><span class="blue"> | </span><span class="event-date"><?php $date = date_create($event['event_date']); echo date_format($date, 'M j'); ?><sup>th</sup> @ <?php $date = date_create($event['event_date']); echo date_format($date, 'g:i'); ?></span></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
             </div>
-            <div class="col-md-5 ml-md-auto events">
-              <h3 class="event-title text-center">Peer Program<span class="blue"> | </span><span class="event-date">Oct. 30<sup>th</sup> @ 7pm</span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
-            </div>
+            <?php } ?>
         </div>
       </div>
 
