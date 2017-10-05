@@ -1,7 +1,7 @@
 <?php 
 // This script sends contact information for all contact forms
 
-$to = ''; //SET TO: EMAIL / WHERE SHOLD THE INFO GO
+$to = ''; //SET TO: EMAIL WHERE SHOULD THE INFO GO
 $first_name = $_POST['firstname'];
 $email = $_POST['email'];
 $contactMsg = $_POST['contactMsg'];
