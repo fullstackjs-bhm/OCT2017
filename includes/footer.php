@@ -28,15 +28,17 @@
             
             <div class="col-12 col-md-3 my-3 text-center form">
               <h2>Contact Us</h2>
-              <input class="col-12 mt-1 name input" placeholder="Name" type="text">
-              <input class="col-12 mt-1  email input" placeholder="Email Address" type="text">
-              <a class= "col-12 mt-1 btn btn-success text-center">Submit</a>
+              <form action="scripts/sendContact.php" method="POST">
+                <input class="col-12 mt-1 name input" placeholder="Your Name" type="text" name="firstname" required />
+                <input class="col-12 mt-1  email input" placeholder="Email Address" type="text" name="email" required />
+                <input class= "col-12 mt-1 btn btn-success text-center contactBtn" type="submit" value="Submit" />
+              </form>
             </div>
           </div>
 
           <div class="row py-3 copyTerms">
             <div class="col-12 col-md-6 text-center text-md-left">&copy; Copyright <?php echo date('Y'); ?> Full Stack BHM</div>
-            <div class="col-12 col-md-6 text-center text-md-right"><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></div>
+            <div class="col-12 col-md-6 text-center text-md-right"><a class="mx-1" href="#">Terms &amp; Conditions</a> <span style="color: #fff;">|</span> <a class="mx-1" href="#">Privacy Policy</a></div>
           </div>
       </div>
     </div>
@@ -45,8 +47,6 @@
 <!--  *** End of page scripts ***  -->
     <!-- Current jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 
    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>

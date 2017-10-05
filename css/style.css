@@ -274,7 +274,6 @@ h2.underline:after {
 
 input[type=text]{
 	height: 40px;
-	padding: 5px;
 
 }
 /**************************************
@@ -399,9 +398,17 @@ input[type=text]{
 	margin-top: 5px;
 	margin-left: 6%;
 }
-.copyTerms{
+
+.footer a:not([href]):not([tabindex]) {
+    color: #fff;
+}
+.copyTerms,
+.copyTerms a,
+.copyTerms a:hover,
+.copyTerms a:visited{
 	font-size: 0.9em;
 	padding-bottom: 5px;
+	color: #BE90D4
 }
 
 /*****************************

@@ -61,8 +61,8 @@
               <h2>Want More Info?</h2>
               <h2><span>Complete This Form!</span></h2>
               <form action="scripts/sendContact.php" method="POST">
-                <input class="col-12 name" placeholder="Name" type="text" name="firstname">
-                <input class="col-12 my-2  email" placeholder="Email Address" type="text" name="email">
+                <input class="col-12 name" placeholder="Your Name" type="text" name="firstname" required>
+                <input class="col-12 my-2  email" placeholder="Email Address" type="text" name="email" required>
                 <input class= "col-12 btn btn-success text-center" type="submit" value="Submit">
               </form>  
             </div>
@@ -77,8 +77,8 @@
           <hr>
             <?php foreach ($events as $event) { ?>
             <div class="col-md-5 ml-md-auto events">
-              <h3 class="event-title text-center"><?php echo $event['event_name']; ?><span class="blue"> | </span><span class="event-date"><?php $date = date_create($event['event_date']); echo date_format($date, 'M j'); ?><sup>th</sup> @ <?php $date = date_create($event['event_date']); echo date_format($date, 'g:i'); ?></span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores accusamus hic assumenda eum dolorem. Sequi, delectus cumque? Doloribus sint, iusto magni soluta excepturi cum eveniet explicabo officia totam repellendus?</p>
+              <h3 class="event-title text-center"><?php echo $event['event_name']; ?><span class="blue"> | </span><span class="event-date"><?php $date = date_create($event['event_date']); echo date_format($date, 'M j'); ?> @ <?php $date = date_create($event['event_date']); echo date_format($date, 'g:ia'); ?></span></h3>
+              <p><?php echo $event['event_description']; ?></p>
             </div>
             <?php } ?>
         </div>

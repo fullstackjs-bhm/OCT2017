@@ -27,7 +27,7 @@
  					<div class="col-12 text-center day"><p><?php $date = date_create($event['event_date']); echo date_format($date, 'd'); ?></p></div>
  			</div>
  			<div class="col-md-10 col-12 eventText pt-4">
- 				<h3><?php echo $event['event_name']; ?></h3>
+ 				<h3 class="event-title"><?php echo $event['event_name']; ?><span class="blue"> | </span><span class="event-date"><?php $date = date_create($event['event_date']); echo date_format($date, 'g:ia'); ?></span></h3>
  				<p><?php echo $event['event_description']; ?></p>
  			</div>
 

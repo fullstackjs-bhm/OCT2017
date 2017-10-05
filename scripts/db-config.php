@@ -1,9 +1,9 @@
 <?php 
 	
-	$db = 'stackjs_db';
-	$host = 'localhost';
-	$username = 'root';
-	$password = '';
+	$db = ''; //DB NAME
+	$host = '';//DB HOST OR URL
+	$username = '';//DB USERNAME
+	$password = '';//DB PASSWORD
 
 //Create DB connnection using PDO Object
 
